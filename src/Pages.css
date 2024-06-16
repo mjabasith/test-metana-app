@@ -1,0 +1,61 @@
+.new-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .image-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .arrow {
+    background-color: #cf9fff; /* Update the button background color */
+    color: white; /* Assuming white text, change if needed */
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .arrow:hover {
+    background-color: #b38fe6; /* Optional: slightly darker shade for hover effect */
+  }
+  
+  .ok-button {
+    background-color: #cf9fff; /* Same color as other buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .ok-button:hover {
+    background-color: #b38fe6; /* Optional: slightly darker shade for hover effect */
+  }
+  
